@@ -1,4 +1,7 @@
+:: Credits: @AllSkillX3D
+
 @echo off
+color 0B
 takeown /f %LocalAppData%\Microsoft\Windows\Explorer\ /r /d y
 takeown /f %%G\AppData\Local\Temp\ /r /d y
 takeown /f %SystemRoot%\TEMP\ /r /d y
